@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+#informacion-personal, #habilidades, #educacion, #proyectos, #contacto, #contactame {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+}
+
+#informacion-personal h2, #habilidades h2, #educacion h2, #proyectos h2, #contacto h2, #contactame h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#habilidades ul {
+    list-style-type: square;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: -1750;
+    width: 100%;
+}
+/* Estilos del formulario */
+
+form{
+    text-align: left;
+    margin: auto;
+    width: 300px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="submit"]{
+    background-color: aquamarine;
+    color: white;
+    padding: 14px 20px;
+    margin: 2px 220px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(44, 245, 178);
+}
+
+/*  Estilo de la tabla */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 50px;
+}
+
+th, td{
+    border: 1px solid;
+    padding: 8px;
+}
+
+th{
+    background-color: #91b4ff;
+}
+
+    /* Estilos responsivos */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    header, section, footer {
+        padding: 10px;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
